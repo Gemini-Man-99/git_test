@@ -31,36 +31,36 @@ const playGame = () => {
          humanChoice = humanChoice.toLowerCase();
 
          if(humanChoice == computerChoice){
-            return "its a draw!!";
+            console.log("its a draw!!")
          }
 
          else if(humanChoice == "rock" && computerChoice == "scissors"){
-              return "you win, rock beats scissors";
+              console.log("you win, rock beats scissors");
               humanScore ++;
          }
 
          else if(humanChoice == "paper" && computerChoice == "rock"){
-            return "you win, paper beats rock";
+            console.log("you win, paper beats rock")
             humanScore++
          }
 
          else if(humanChoice == "scissors" && computerChoice == "paper"){
-            return "you win, scissors beats paper"
+            console.log("you win, scissors beats paper")
             humanScore++
          }
 
          else if(humanChoice == "scissors" && computerChoice == "rock"){
-        return "you lose, rock beats Scissors"
+            console.log("you lose, rock beats Scissors")
             computerScore++;
          }
 
          else if(humanChoice == "rock" && computerChoice == "paper"){
-            return "you lose, paper beats rock"
+            console.log("you lose, paper beats rock")
             computerScore++;
          }
 
          else if(humanChoice == "paper" && computerChoice == "scissors"){
-            return "you lose, scissors beats paper"
+            console.log("you lose, scissors beats paper")
             computerScore++;
          }
   
