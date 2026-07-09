@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #645c5c;
+    height: 100vh;
+}
+
+.choice-btns {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(232, 236, 240);
+    box-shadow: 2px 2px 15px black;
+}
+
+.rock {
+   background: #4444d4;
+}
+.paper {
+   background: #f05858;
+}
+.scissors {
+   background: #3df53d;
+}
+
+
